@@ -1,0 +1,13 @@
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.deps.json
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.dll
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csprojAssemblyReference.cache
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.AssemblyInfo.cs
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.DataAccess.pdb
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Utility.dll
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Models.pdb
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\bin\Debug\netcoreapp3.1\BulkyBook.Utility.pdb
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.csproj.CopyComplete
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.dll
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook.DataAccess\obj\Debug\netcoreapp3.1\BulkyBook.DataAccess.pdb
