@@ -435,3 +435,5 @@ C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Deb
 C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Upsert.cshtml.g.cs
 C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
 C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Index.cshtml.g.cs
+C:\Users\Luka Devic\Desktop\adadad\Git hub\BulkyBook\BulkyBook\BulkyBook\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CoverType\Upsert.cshtml.g.cs
