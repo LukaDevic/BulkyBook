@@ -1,0 +1,27 @@
+﻿using System.Linq;
+using BulkyBook.Data;
+using BulkyBook.DataAccess.Repository.IRepository;
+using BulkyBook.Models;
+using BulkyBook.Models.ViewModels;
+
+namespace BulkyBook.DataAccess.Repository
+{
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
+    {
+        private readonly ApplicationDbContext _db;
+
+        public CoverTypeRepository(ApplicationDbContext db) : base(db)
+        {
+            _db = db;
+        }
+
+        public void Update(CoverType category)
+        {
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            if (objFromDb != null)
+            {
+                objFromDb.Name = category.Name;
+            }
+        }
+    }
+}
