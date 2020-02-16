@@ -1,8 +1,7 @@
-﻿using System.Linq;
-using BulkyBook.Data;
+﻿using BulkyBook.Data;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
-using BulkyBook.Models.ViewModels;
+using System.Linq;
 
 namespace BulkyBook.DataAccess.Repository
 {
@@ -15,12 +14,12 @@ namespace BulkyBook.DataAccess.Repository
             _db = db;
         }
 
-        public void Update(CoverType category)
+        public void Update(CoverType coverType)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null)
             {
-                objFromDb.Name = category.Name;
+                objFromDb.Name = coverType.Name;
             }
         }
     }
