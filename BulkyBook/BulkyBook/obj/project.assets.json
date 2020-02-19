@@ -58,6 +58,30 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.Google/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1642,6 +1666,18 @@
           }
         }
       },
+      "SendGrid/9.12.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3162,7 +3198,10 @@
         },
         "runtime": {
           "bin/placeholder/BulkyBook.DataAccess.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BulkyBook.Models/1.0.0": {
         "type": "project",
@@ -3181,12 +3220,19 @@
       "BulkyBook.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.1",
+          "Sendgrid": "9.12.6"
+        },
         "compile": {
           "bin/placeholder/BulkyBook.Utility.dll": {}
         },
         "runtime": {
           "bin/placeholder/BulkyBook.Utility.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3243,6 +3289,34 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.2": {
+      "sha512": "FkC/CgnRkArFG/+az8fC0cJnJNezzVW6hIQjKuSS1i1Jr0Lm38lgtHlBt8tf9cPO4IBaA6CK3PBx5APTkic20w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.3.1.2.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/3.1.2": {
+      "sha512": "ziKXE4nTTgK1d1ZWkvc5YYjdarDhI3T59+JaWjq7E7x0sJxnbdi5G1togjmBlgE/lZN95esmVw2rkRSQxdEZmw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.3.1.2.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -5463,6 +5537,26 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SendGrid/9.12.6": {
+      "sha512": "fWg/1HbkiC2OgleRLDWhoNEpasbMsZRFo++Zw+ZzX6yRsJI0dpjQbUp5G1er9+PCNrPkg5AOUBBibrP04cwynQ==",
+      "type": "package",
+      "path": "sendgrid/9.12.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/SendGrid.dll",
+        "lib/net452/SendGrid.pdb",
+        "lib/net452/SendGrid.xml",
+        "lib/netstandard1.3/SendGrid.dll",
+        "lib/netstandard1.3/SendGrid.pdb",
+        "lib/netstandard1.3/SendGrid.xml",
+        "lib/netstandard2.0/SendGrid.dll",
+        "lib/netstandard2.0/SendGrid.pdb",
+        "lib/netstandard2.0/SendGrid.xml",
+        "sendgrid.9.12.6.nupkg.sha512",
+        "sendgrid.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -9714,6 +9808,8 @@
       "BulkyBook.DataAccess >= 1.0.0",
       "BulkyBook.Models >= 1.0.0",
       "BulkyBook.Utility >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 3.1.2",
+      "Microsoft.AspNetCore.Authentication.Google >= 3.1.2",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.1",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.1",
@@ -9777,6 +9873,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.1, )"
